@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(115deg,hsl(291, 79%, 35%) 0% 20%,hsl(322, 96%, 50%),hsl(60, 74%, 55%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+.container {
+    background-color: hsl(0, 60%, 95%);
+    padding: 40px;
+    margin:15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.container img{
+    width:150px;
+}
+.sticker {
+    font-size: 50px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+h1 {
+    color: #d63384;
+}
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.yesBtn {
+    background-color: #28a745;
+    color: white;
+}
+.noBtn {
+    background-color: #dc3545;
+    color: white;
+    cursor: not-allowed; /* Indicates it's not clickable */
+}
